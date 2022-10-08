@@ -1,0 +1,80 @@
+body{
+	background-color:#f4f4f4;
+	color:#555;
+	font-family:arial, helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+a:hover{
+	color:red;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	padding: 30px;
+}
+
+#main-header{
+	background-image: url("C:/Users/darsh/Documents/SEG2900/mywebsite/Images/space2.jpg");
+	background-size: 40%;
+	color:#F4BA30;
+	text-align:center;
+	padding:10px;
+}
+
+#nav-bar{
+	background-color: #070707;
+	color:white;
+	padding:1px;
+}
+
+#nav-bar ul{
+	
+}
+
+#nav-bar li{
+	display:inline;
+}
+
+#nav-bar a{
+	color:#AE0F0F;
+	font-size:18px;
+	padding-right:120px;
+	padding-left:120px;
+}
+
+#showcase{
+	background-image: url("C:/Users/darsh/Documents/SEG2900/mywebsite/Images/space.PNG");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100%;
+	height: 400px;
+	margin-bottom:0px;
+	text-align:center;
+}
+
+#showcase h1{
+	color:white;
+	font-size:30px;
+	line-height: 1.6em;
+	padding:90px;
+}
+
+.container2{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	
+}
+
+#about{
+	font-size:20px;
+	background-image: url("C:/Users/darsh/Documents/SEG2900/mywebsite/Images/tree.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
