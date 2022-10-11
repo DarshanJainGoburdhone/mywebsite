@@ -1,8 +1,11 @@
 body{
 	font-family: Tahoma;
   	background-image: url("../images/beach.jpg");
+  	width:100%;
   	background-repeat: no-repeat;
-  	background-size: 100%;
+  	background-position: center center;
+  	background-attachment: fixed;
+  	background-size: cover;
 
 }
 
@@ -38,14 +41,6 @@ body{
   color: white;
 }
 
-
-
-
-img{
-	float:right;
-	margin-top: 20px;
-	margin-right: 150px;
-}
 
 .text{
 	margin-left: 100px;
@@ -125,9 +120,16 @@ img{
 /*season 1*/
 
 .episodes a{
-	color:#CF9206;
+	color:white;
 }
 
 .episodes a:hover{
-  	color: coral;
+  	color: #CF9206;
+}
+
+.episodes{
+	color:black;
+	width:50%;
+	padding:1%;
+	margin:1%;
 }
