@@ -11,6 +11,15 @@ a:hover{
 	color:red;
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.image{
+	animation: fadeIn 5s;
+}
+
 .container{
 	width:80%;
 	margin:auto;
