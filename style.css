@@ -18,7 +18,7 @@ on the container's size */
 
 }
 
-
+body,html{margin:0}
 
 .topnav {
   background-color: #1B0260;
@@ -53,7 +53,7 @@ on the container's size */
 
 
 img{
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 .text{
