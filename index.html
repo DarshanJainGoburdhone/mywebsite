@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" href="style.css">
 	<link rel="shortcut icon" href="images/logo.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<title>Wandering Soul</title>
 </head>
 
@@ -62,5 +63,17 @@
 	</center>
 
 	<script src="app.js"></script>
+	
+	<div class="loader-wrapper">
+	    <span class="loader"><span class="loader-inner"></span></span>
+	</div>
+
+	<script src="app.js"></script>
+
+	<script>
+		$(window).on("load",function(){
+		  $(".loader-wrapper").fadeOut("slow");
+		});
+    	</script>
 </body>
 </html>
